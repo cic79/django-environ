@@ -8,13 +8,13 @@ import os
 here = os.path.abspath(os.path.dirname(__file__))
 README = io.open(os.path.join(here, 'README.rst'), encoding="utf8").read()
 
-version = '0.4.1'
+version = '0.4.1.1'
 author = 'joke2k'
-description = "Django-environ allows you to utilize 12factor inspired environment " \
+description = "Django-environ-plus allows you to utilize 12factor inspired environment " \
               "variables to configure your Django application."
 install_requires = ['django', 'six']
 
-setup(name='django-environ',
+setup(name='django-environ-plus',
       version=version,
       description=description,
       long_description=README,
