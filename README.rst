@@ -254,9 +254,14 @@ Django-environ-plus is licensed under the MIT License - see the `LICENSE`_ file 
 Changelog
 =========
 
+`0.4.1.2` - 18-February-2019`__
+------------------------------
+  - Support for cache django 2.1
+
+
 `0.4.1.1` - 18-February-2019`__
 ------------------------------
-  - Fixes if fedt and prepare the pypi package
+  - Fixes of fedt and prepare the pypi package
 
 
 `0.4.1 - 13-November-2016 <https://github.com/joke2k/django-environ/compare/v0.4...v0.4.1>`__
