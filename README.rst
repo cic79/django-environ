@@ -1,8 +1,8 @@
-==============
-Django-environ
-==============
+===================
+Django-environ-plus
+===================
 
-Django-environ allows you to utilize 12factor inspired environment variables to configure your Django application.
+Django-environ-plus allows you to utilize 12factor inspired environment variables to configure your Django application.
 
 |pypi| |unix_build| |windows_build| |coverage| |downloads| |license|
 
@@ -22,7 +22,7 @@ and inspired by:
 * `12factor-django`_
 * `Two Scoops of Django`_
 
-This is your `settings.py` file before you have installed **django-environ**
+This is your `settings.py` file before you have installed **django-environ-plus**
 
 .. code-block:: python
 
@@ -124,7 +124,7 @@ How to install
 
 ::
 
-    $ pip install django-environ
+    $ pip install django-environ-plus
 
 
 How to use
@@ -249,10 +249,20 @@ Tests
 License
 =======
 
-Django-environ is licensed under the MIT License - see the `LICENSE`_ file for details
+Django-environ-plus is licensed under the MIT License - see the `LICENSE`_ file for details
 
 Changelog
 =========
+
+`0.4.1.2` - 18-February-2019`__
+------------------------------
+  - Support for cache django 2.1
+
+
+`0.4.1.1` - 18-February-2019`__
+------------------------------
+  - Fixes of fedt and prepare the pypi package
+
 
 `0.4.1 - 13-November-2016 <https://github.com/joke2k/django-environ/compare/v0.4...v0.4.1>`__
 -------------------------------------------------------------------------------------------
